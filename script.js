@@ -1,6 +1,10 @@
 //your JS code here. If required.
-const myObj {
-	name:"John",
+const student{
+	name:"",
 }
 
-const keys= Object.keys(obj);
+function getKeys(obj){
+	return Object.keys(obj);
+}
+
+console.log(getKeys(student));
